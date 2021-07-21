@@ -1,0 +1,8 @@
+Car
+Truck
+Bicycle
+Police
+People
+Van
+Taxi
+Bus
