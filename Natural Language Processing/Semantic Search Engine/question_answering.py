@@ -8,9 +8,9 @@ from FAISS_indexer import Semantic
 
 class QuestionAnswering(Semantic):
 
-    """:returns answer chunk for a query passed to
-       params: questions - query text as a question
-            questionContext - context relevant phrase from an index"""
+    """ param: Query - User query passed as a question
+        param: k - list of top answers to show as output
+        returns: list of contextually relevant answers for the user query"""
 
     def __init__(self, query, k=5):
         """ Constructor """
